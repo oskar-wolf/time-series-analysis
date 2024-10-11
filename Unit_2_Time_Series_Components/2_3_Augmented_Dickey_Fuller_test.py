@@ -69,3 +69,9 @@ for key, value in resultADF[2].items():
 	print('\t%s: %.3f' % (key, value))
 
 # %%
+#console output
+# ADF Statistic: -6.432558
+# p-value: 0.000000
+# 	1% : -2.570
+# 	5% : -1.942
+# 	10% : -1.616
