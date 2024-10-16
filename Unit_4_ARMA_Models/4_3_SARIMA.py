@@ -25,8 +25,8 @@ plt.subplots_adjust(hspace = 0.4)
 # add raw data series
 axes[0].plot(df.index,df.Auto_sales, \
     color='k', label='Actual vehicle sales')
-axes[0].set_xlabel('Lag')
-axes[0].set_ylabel('Correlation')
+axes[0].set_xlabel('Year')
+axes[0].set_ylabel('Sales')
 axes[0].grid()
 
 # create ACF plot
